@@ -1,7 +1,7 @@
 ‧Practice_captcha
 ------------------
 
-*Dependencies
+‧Dependencies
 ------------------
 <ul>
 <li><p>Python : 3.6.5</p></li>
