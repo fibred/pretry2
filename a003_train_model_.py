@@ -170,7 +170,7 @@ x = Flatten()(pool3)
 # Dropout
 #x = Dropout(0.25)(x)
 
-# 4個全連接層分別做10分類，分別對應4個字符
+# 4個全連接層分別做36分類，分別對應4個字符
 x = [Dense(36,activation="softmax",name="fc%d"%(i+1))(x) for i in range(4)]
 
 # 4個字符向量拼接在一起，與標籤向量形式一致，作爲模型輸出
@@ -188,13 +188,13 @@ print(model.summary())
 plot_model(model,show_shapes=True)
 
 datagen = ImageDataGenerator(
-    rotation_range=0.01,
+#    rotation_range=0.01,
     width_shift_range=0.001,
-    height_shift_range=0.01,
-    shear_range=0.01,
+#    height_shift_range=0.01,
+#    shear_range=0.01,
 #    zoom_range=0.2,
     horizontal_flip=False,
-    channel_shift_range=15,
+#    channel_shift_range=15,
 #    cval=0,
 #    zca_epsilon=1e-6,
     fill_mode='nearest'
