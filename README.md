@@ -1,16 +1,30 @@
-#Practice_captcha
-<br />
+‧Practice_captcha
+------------------
 
-#Dependencies
-<br />Python : 3.6.5
-<br />Tensorflow : 2.0
-<br />ImageCaptcha : 0.3
-<br />OpenCV : 4.1.1
+*Dependencies
+------------------
+<ul>
+<li><p>Python : 3.6.5</p></li>
+<li><p>Tensorflow : 2.0</p></li>
+<li><p>ImageCaptcha : 0.3</p></li>
+<li><p>OpenCV : 4.1.1</p></li>
+</ul>
 
-#Files
-<br />a001_captcha_gen_.py	Generate captcha images for pretrain
-<br />a002_captcha_crawling.py	Get captcha images for target web
-<br />a003_train_model_.py	Load images and train model
-<br />a004_test_accuracy_.py	evaluate  the  accuracy  of  real test image
-<br />without: {}.h5_well-trained model file >25MB
+‧Files
+------------------
+<p>1.Generate captcha images for pretrain:</p>
 
+<pre><code>run a001_captcha_gen_.py
+</code></pre>
+<p>2.Get captcha images for target web:</p>
+
+<pre><code>run a002_captcha_crawling.py
+</code></pre>
+<p>3.Load images and train model:</p>
+
+<pre><code>run a003_train_model_.py
+</code></pre>
+<p>4.evaluate the accuracy of real test image:</p>
+
+<pre><code>run a004_test_accuracy_.py
+</code></pre>
