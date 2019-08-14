@@ -17,10 +17,10 @@ practice_captcha_github
 
 
 Download model.h5 file from : <br> 
-https://drive.google.com/open?id=1LEidunJDabgK2KUrbaWxi8zIZiG0yhY7<br> 
+https://drive.google.com/open?id=13JH5OMpEEvtPPkTTmin0iMjgKckiyDm7<br> 
 Put model at path folder, set path and names list below at captcha_1.py:<br> 
 
-    model_name = "0808_2"
+    model_name = "0811_2"
     model_path = '../models/{}.h5'.format(model_name)
     IMGSAVEPATH = ''
     
